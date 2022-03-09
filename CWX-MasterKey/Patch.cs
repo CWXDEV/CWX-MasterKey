@@ -2,6 +2,7 @@
 using Aki.Reflection.Patching;
 using Aki.Reflection.Utils;
 using EFT;
+using Aki.Common.Utils;
 
 namespace CWX_MasterKey
 {

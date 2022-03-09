@@ -1,13 +1,12 @@
-﻿using BepInEx;
-using UnityEngine;
+﻿using Aki.Common.Utils;
 
 namespace CWX_MasterKey
 {
-    [BepInPlugin("com.CWX.MasterKey", "CWX-MasterKey", "1.0.0")]
-    public class Plugin : BaseUnityPlugin
+    public class Program
     {
-        private void Awake()
+        static void Main(string[] args)
         {
+            Log.Info("LOADING: CWX-MASTERKEY - V1.0.0");
             new Patch().Enable();
         }
     }
