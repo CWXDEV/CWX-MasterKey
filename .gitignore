@@ -1,0 +1,22 @@
+## MasterKey
+*.exe
+*.zip
+CWX-MasterKey/bin/
+CWX-MasterKey/bin//obj/
+CWX-MasterKey/bin//Properties/
+CWX-MasterKey/obj/
+*.editorconfig
+
+## visual studio
+.vs
+.idea
+slnx.sqlite
+slnx-journal.sqlite
+
+## nodejs
+node_modules
+node.exe
+package-lock.json
+
+## windows
+desktop.ini
