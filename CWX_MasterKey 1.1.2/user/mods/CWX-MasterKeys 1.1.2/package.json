@@ -1,9 +1,9 @@
 {
     "name": "MASTERKEY",
     "author": "CWX",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "license": "NCSA",
     "main": "package.js",
-    "akiVersion": "2.3.0"
+    "akiVersion": "2.3.1"
 }
 
